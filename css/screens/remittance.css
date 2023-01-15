@@ -1,0 +1,77 @@
+.remittance-wraaper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  border-radius: 15%;
+  flex-direction: column;
+  height: auto;
+}
+
+.remittance-wraaper__inbox {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  height: 80%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  table-layout: fixed;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.section-name {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.section-choice {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  padding: 1.5%;
+  background-color: rgba(199, 204, 204, 0.7);
+  margin-bottom: 40px;
+}
+
+.section-choice > div:first-child {
+  background-color: white;
+}
+
+.section-choice__box {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: rgba(146, 159, 159, 0.89);
+}
+
+.section-input {
+  width: 100%;
+}
+
+.section-input > input {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 1;
+  font-size: 20px;
+}
+
+.section-input > i {
+  position: absolute;
+  right: 45px;
+  color: rgba(146, 159, 159, 0.89);
+}
